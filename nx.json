@@ -43,6 +43,12 @@
       "options": {
         "targetName": "test"
       }
+    },
+    {
+      "plugin": "@nx/rollup/plugin",
+      "options": {
+        "buildTargetName": "build"
+      }
     }
   ],
   "targetDefaults": {
@@ -55,6 +61,11 @@
       "application": {
         "style": "scss",
         "linter": "eslint"
+      }
+    },
+    "@nx/react": {
+      "library": {
+        "unitTestRunner": "jest"
       }
     }
   }
