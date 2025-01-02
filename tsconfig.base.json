@@ -15,8 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "dashlite-ui": ["ui/src/index.ts"],
-      "dashlite-ui/server": ["ui/src/server.ts"]
+      "dashlite-ui": ["ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
